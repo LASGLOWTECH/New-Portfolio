@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
     "aos": "^2.3.4",
     "autoprefixer": "10.4.16",
     "eslint": "8.51.0",
