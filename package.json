@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "aos": "^2.3.4",
     "autoprefixer": "10.4.16",
     "eslint": "8.51.0",
     "eslint-config-next": "13.5.6",
+    "framer-motion": "^10.18.0",
+    "i": "^0.3.7",
     "next": "13.5.6",
+    "npm": "^10.4.0",
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-responsive-masonry": "^2.1.7",
+    "react-simple-typewriter": "^5.0.1",
     "tailwindcss": "3.3.3"
   }
 }

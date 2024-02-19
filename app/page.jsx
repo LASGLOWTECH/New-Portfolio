@@ -1,113 +1,143 @@
+
+"use client"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import {useEffect } from 'react'
 import Image from 'next/image'
-
+import Link from 'next/link'
+import { Typewriter } from 'react-simple-typewriter'
+import Services from './components/services'
+import Skills from './components/Skillrender'
+import Aboutus from './components/about'
+import ScrollTop from './components/scrolltop';
+import Projects from './components/project'
+import Contact from './components/contact'
+// import { Button } from '@material-ui/core'
 export default function Home() {
+
+
+  const handleType = (count) => {
+
+    
+  useEffect(()=>{
+    AOS.init({duration: 1000});      
+    
+    }, []);
+    // access word count number
+    console.log(count)
+  }
+
+
+  const handleDone = () => {
+    console.log(`Done after 5 loops!`)
+  }
+
+
+
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    // <div className=' px-6 bg-banner bg-l w-full  bg-contain bg-no-repeat  h-[80vh] md:h-[100vh] '>
+
+    <main className="min-h-screen p-6 md:p-20  bg-gradient-to-tr  from-darkestBlue  via-darkestBlue to-greyBlack">
+      <section className='grid items-center  mt-20 grid-cols-1  md:grid-cols-2'>
+
+        <Image src='/prof2.png'
+          className='px-2 shadow-amber2 shadow-3xl  p-2 border2 border-b-amber2 rounded-b-full'
+          width={500}
+          height={400}
+          alt='hero-picture' />
+
+
+        <div className='pt-2 md:pt-0 text-center md:text-start '>
+
+          <h3 className='  text-3xl font-medium text-white'  data-aos="slide-down">Hi, I'm <br></br>
+            <span className='text-4xl text-ash2 font-bold pt-3'>Omozemoje Augustine Oisasoje,</span> </h3>
+          <h5 className="  text-3xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-lightBlue to-amber1 pt-2"> Your Creative
+
+
+            <span className='font-bold'>
+              <Typewriter
+                words={[' Web developer', ' Web Designer', '  Graphic designer']}
+                loop={Infinity}
+                cursor
+                cursorStyle='|'
+                typeSpeed={90}
+                deleteSpeed={50}
+                delaySpeed={2000}
+                onLoopDone={handleDone}
+                onType={handleType}
+              />
+            </span></h5>
+
+          <p className='text-ash2 text-lg pt-6 font-light'>
+            I am career driven, passionate and result oriented,
+            seeking to maintain a full time developer that offers professional challenges, leveraging my
+            skills to achieve results. To continue building a career and making positive impact in a client
+            organization with existing instruments and upholding work ethics..</p>
+          <Link className='font-bolder' href='https://drive.google.com/file/d/1EAqA0QIZQymMCVPkoEpUzACbUVadX7-x/view?usp=drive_link'><button className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-tr from-amber2 via-amber1 to-amber2 hover:scale-110 '>View CV</button> </Link>
         </div>
-      </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      </section>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+      {/* Skills */}
+      <section id="Skills" className='pt-20'>
+        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue text-transparent bg-clip-text text-3xl font-bold pt-6   pb-3  text-center'  >Skills</h3>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
+        <h3 className=' font-bold   text-3xl l text-center  text-ash2 py-2' id="services">Accomplished Skills to Date </h3>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <Skills />
+
+      </section>
+
+
+
+
+
+      {/* Services*/}
+      <section id="Services" className='pt-20'>
+        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'  >Services</h3>
+
+        <h3 className='  text-3xl font-bold  max-2xl text-center  text-ash2  py-2' id="services">What I Do for My Clients </h3>
+
+        <Services />
+
+
+      </section>
+
+
+
+      <section id="Experience" className='pt-20'>
+        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'  >Resume</h3>
+
+        <h3 className='  text-3xl font-bold  max-2xl text-center  text-ash2  py-2' id="services">Demonstrated Experience and Accomplishments</h3>
+        <Aboutus />
+      </section>
+
+
+      <Projects />
+
+      {/* about me Section */}
+      <section id="Contact" className='pt-20'>
+        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'  >Get in Touch</h3>
+
+        <h3 className='  text-4xl font-bold shadow-2xl   max-2xl text-center  text-ash2 py-6' id="services">I can't wait to connect with you </h3>
+
+        <Contact />
+
+
+      </section>
+
+<ScrollTop/>
+
+
+
+
+
+
+
+
+
     </main>
   )
 }
