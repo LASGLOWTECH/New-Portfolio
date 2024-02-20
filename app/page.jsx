@@ -125,7 +125,7 @@ export default function Home() {
       <section id="Contact" className='pt-20'>
         <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'  >Get in Touch</h3>
 
-        <h3 className='  text-4xl font-bold shadow-2xl   max-2xl text-center  text-ash2 py-6' id="services">I can't wait to connect with you </h3>
+        <h3 className='  text-4xl font-bold shadow-2xl   max-2xl text-center  text-ash2 py-6' id="services">I C&apos;nt wait to connect with you </h3>
 
         <Contact />
 
