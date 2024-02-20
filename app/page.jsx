@@ -16,13 +16,17 @@ import Contact from './components/contact'
 export default function Home() {
 
 
-  const handleType = (count) => {
-
-    
   useEffect(()=>{
     AOS.init({duration: 1000});      
     
     }, []);
+
+
+
+
+  const handleType = (count) => {
+
+    
     // access word count number
     console.log(count)
   }

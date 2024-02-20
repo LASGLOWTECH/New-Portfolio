@@ -14,14 +14,14 @@ const Profile = [
     title: "Web Design",
     icon: { iconTitle: BsVectorPen},
 
-    info: "When it comes to web design, I specialize in creating intuitive and aesthetically pleasing websites that not only look great but also offer seamless user experiences. By incorporating modern design principles, user interface best practices, and responsive design techniques, I help you establish a strong online presence and leave a lasting impression on your visitors."
+    info: "I specialize in creating intuitive and aesthetically pleasing websites that not only look great but also offer seamless user experiences. By incorporating modern design principles, user interface best practices, and responsive design techniques, I help you establish a strong online presence and leave a lasting impression on your visitors."
   },
 
   {
     id: "2",
     title: "Web Development",
     icon: { iconTitle: BsCodeSlash },
-    info: " web development, I bring your design concepts to life by building functional and feature-rich websites that are optimized for performance and scalability. Whether it's a simple brochure site or a complex e-commerce platform, I have the technical expertise to develop custom solutions that meet your specific requirements and business objectives.",
+    info: " I bring your design concepts to life by building functional and feature-rich websites that are optimized for performance and scalability. Whether it's a simple brochure site or a complex e-commerce platform, I have the technical expertise to develop custom solutions that meet your specific requirements and business objectives.",
 
   },
 

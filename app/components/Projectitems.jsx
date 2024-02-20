@@ -22,7 +22,7 @@ const Pdata = () => {
     <div className="">
 
 
-      <div className=" " bg-dark>
+      <div className=" bg-dark">
 
         <Bitems
           filterItem={filterItem}

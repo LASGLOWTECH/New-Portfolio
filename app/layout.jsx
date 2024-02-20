@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'my folio-app',
-  description: 'A website for my ',
+  description: 'my portfolio website ',
 }
 
 export default function RootLayout({ children }) {

@@ -7,12 +7,12 @@ const Aboutus = () => {
 
 
 
-        <div class className>
+        <>
 
 
 
             <div className="grid  py-10 items-start justify-start  grid-cols-1 md:grid-cols-2">
-{/* work experience */}
+                {/* work experience */}
 
                 <div className="  flex  items-start flex-col">
                     <h3 className='  text-3xl font-bold   text-ash2  py-8' id="services">Experience</h3>
@@ -98,17 +98,17 @@ const Aboutus = () => {
 
                 </div>
 
-               
+
 
 
 
                 <div className="  flex  items-start flex-col">
 
                     <h3 className='  text-3xl font-bold   text-ash2   py-10 ' id="services">Education</h3>
-{/* 1st education */}
-                  
+                    {/* 1st education */}
+
                     <div className="border  border-ash2 p-3 mb-2 rounded-md shadow-sm">
-                    < div className="flex flex-row items-center ">
+                        < div className="flex flex-row items-center ">
                             < FaGraduationCap className="bg-amber2  rounded-full text-4xl p-2 fill-darkBlue" />
                             <div className="bg-amber1 w-10 h-0.5" />
                             <div className=" py-2 flex px-5 flex-col md:flex-row items-start   md:justify-center">
@@ -128,7 +128,7 @@ const Aboutus = () => {
                         </p>
 
 
-                        </div>
+                    </div>
 
 
 
@@ -136,8 +136,8 @@ const Aboutus = () => {
 
 
 
-                        <div className="border  border-ash2 p-5 rounded-md shadow-sm">
-                    < div className="flex py-6 flex-row items-center ">
+                    <div className="border  border-ash2 p-5 rounded-md shadow-sm">
+                        < div className="flex py-6 flex-row items-center ">
                             < FaGraduationCap className="bg-amber2  rounded-full text-4xl p-2 fill-darkBlue" />
                             <div className="bg-amber1 w-10 h-0.5" />
                             <div className=" py-2 flex px-5 flex-col md:flex-row items-end   md:justify-center">
@@ -151,9 +151,9 @@ const Aboutus = () => {
 
 
                         <p className=" text-lightBlue text-lg py-1 ">Azama College</p>
-                    
 
-                        </div>
+
+                    </div>
                 </div>
 
 
@@ -164,7 +164,7 @@ const Aboutus = () => {
 
 
 
-        </div>
+        </>
     );
 }
 

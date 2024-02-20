@@ -44,7 +44,7 @@ function Contact() {
 {/* Name form */}
 <div className="email-send flex justify-beween flex-col ">
 
-  <label className="pt-3 pb-2   text-white text-lg font-medium " for="text">Name<sup className="text-red-500">*</sup></label>
+  <label htmlFor="name" className="pt-3 pb-2   text-white text-lg font-medium " >Name<sup className="text-red-500">*</sup></label>
 
   <div className="email-send flex  flex-col md:flex-row ">
 <div className="flex flex-col">
@@ -74,7 +74,7 @@ function Contact() {
 {/* email form */}
 <div className="email-send flex  flex-col ">
 
-  <label className="pt-3 pb-2 text-white text-lg font-medium  " for="text">Email<sup className="text-red-600">*</sup></label>
+  <label htmlFor="email" className="pt-3 pb-2 text-white text-lg font-medium  " >Email<sup className="text-red-600">*</sup></label>
 
   <input type="email" name="email"
     className="ps-5  border border-b-darkGreen shadow-md border-double py-2 mt-2 w-full text-base  "
@@ -88,7 +88,7 @@ function Contact() {
 
 <div className="email-send flex  flex-col ">
 
-  <label className="pt-3 pb-2  text-white text-lg font-medium " for="text">Phone Number<sup className="text-red-600">*</sup></label>
+  <label htmlFor="phone" className="pt-3 pb-2  text-white text-lg font-medium ">Phone Number<sup className="text-red-600">*</sup></label>
 
   <input type="number" name="phone"
     className="ps-5  border border-b-darkGreen shadow-md border-double py-2 mt-2 w-full text-base "
@@ -101,7 +101,7 @@ function Contact() {
 
 <div className="email-send flex  flex-col ">
 
-  <label className="pt-3 pb-2  text-white text-lg font-medium " for="text">Comment or Message<sup className="text-red-600">*</sup></label>
+  <label htmlFor="text" className="pt-3 pb-2  text-white text-lg font-medium " >Comment or Message<sup className="text-red-600">*</sup></label>
 
   <textarea className="w-full h-[200px]   text-gray-400 ps-5 py-5  border border-b-darkBlue shadow-md border-double text-base"
     name="message"

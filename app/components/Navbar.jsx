@@ -37,22 +37,21 @@ export default function Navbar() {
             <div className="  mx-auto flex  justify-between  w-full items-center   py-4  ">
 
                 <div className='text-6xl '>
-                    <Link href='/'>
+                    
                         <Image src="/mylogo.png"
                             width={60}
                             height={60}
                             alt="image" />
 
-                    </Link>
                 </div>
 
 
                 <div className=' hidden  md:flex  flex-col md:flex-row  justify-end'>
-                    {navLinks.map((links) => {
+                    {navLinks.map((links,index) => {
                         return (
 
 
-                            <Link href={links.to} className='text-ash2 hover:text-amber1 px-3 font-medium  tracking-wider text-base ' key={links} >{links.link}</Link>
+                            <Link href={links.to} className='text-ash2 hover:text-amber1 px-3 font-medium  tracking-wider text-base ' key={index} >{links.link}</Link>
 
 
                         )
@@ -88,11 +87,11 @@ export default function Navbar() {
             initial={{ x: "-100%" }}
             animate={{ x: show ? "0%" : "-100%" }}
             transition={{ type: "spring", stiffness: 300, damping: 80 }}>
-                {navLinks.map((links) => {
+                {navLinks.map((links,index) => {
                     return (
 
 
-                        <Link href={links.to} className='text-ash2 hover:text-amber2 py-3 px-3 font-medium  tracking-wider text-base ' key={links} onClick={handleClose} >{links.link}</Link>
+                        <Link href={links.to} className='text-ash2 hover:text-amber2 py-3 px-3 font-medium  tracking-wider text-base ' key={index} onClick={handleClose} >{links.link}</Link>
 
 
                     )
