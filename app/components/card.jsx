@@ -32,7 +32,7 @@ const Card = ({ item }) => {
           <div className="flex justify-center"
             key={Val.id}
           >
-            <div className=" bg-gradient-to-tl from-darkestBlue  via-greyBlack  to-darkestBlue mx-1  my-1 justify-center shadow-2xl   flex flex-col px-3 py-6 rounded-2xl  hover:scale-105 "   data-aos="slide-up">
+            <div className=" bg-gradient-to-tl from-darkestBlue  via-greyBlack  to-darkestBlue mx-1  my-1 justify-center shadow-2xl   flex flex-col px-3 py-6 rounded-2xl  hover:scale-105 "   data-aos="fade-in">
 
               <Image src={Val.img}
                 className=' shadow-amber2 shadow-3xl  w-full py-5 border2 border-b-amber2 rounded-2'

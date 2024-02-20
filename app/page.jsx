@@ -45,7 +45,7 @@ export default function Home() {
     <main className="min-h-screen p-6 md:p-20  bg-gradient-to-tr  from-darkestBlue  via-darkestBlue to-greyBlack">
       <section className='grid items-center  mt-20 grid-cols-1  md:grid-cols-2'>
 
-        <Image src='/prof2.png'
+        <Image src='/PROF2.png'
           className='px-2 shadow-amber2 shadow-3xl  p-2 border2 border-b-amber2 rounded-b-full'
           width={500}
           height={400}
@@ -125,7 +125,7 @@ export default function Home() {
       <section id="Contact" className='pt-20'>
         <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'  >Get in Touch</h3>
 
-        <h3 className='  text-4xl font-bold shadow-2xl   max-2xl text-center  text-ash2 py-6' id="services">I C&apos;nt wait to connect with you </h3>
+        <h3 className='  text-4xl font-bold shadow-2xl   max-2xl text-center  text-ash2 py-6' id="services">I can&apos;t wait to connect with you </h3>
 
         <Contact />
 
