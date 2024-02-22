@@ -5,6 +5,8 @@ import { useState } from "react";
 import Data from "./portfolio";
 import Bitems from "./bitems";
 import Card from "./card";
+import { motion, AnimatePresence } from "framer-motion"
+
 // import { SiSalesforce } from "react-icons/si";
 const Pdata = () => {
 

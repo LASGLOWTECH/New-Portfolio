@@ -13,6 +13,8 @@ import ScrollTop from './components/scrolltop';
 import Projects from './components/project'
 import Contact from './components/contact'
 // import { Button } from '@material-ui/core'
+import { motion, AnimatePresence } from "framer-motion"
+
 export default function Home() {
 
 
@@ -46,7 +48,7 @@ export default function Home() {
       <section className='grid items-center  mt-20 grid-cols-1  md:grid-cols-2'>
 
         <Image src='/PROF2.png'
-          className='px-2 shadow-amber2 shadow-3xl  p-2 border2 border-b-amber2 rounded-b-full'
+          className='px-2  p-2 rounded-b-full'
           width={500}
           height={400}
           alt='hero-picture' />
@@ -74,10 +76,7 @@ export default function Home() {
             </span></h5>
 
           <p className='text-ash2 text-lg pt-6 font-light'>
-            I am career driven, passionate and result oriented,
-            seeking to maintain a full time developer that offers professional challenges, leveraging my
-            skills to achieve results. To continue building a career and making positive impact in a client
-            organization with existing instruments and upholding work ethics..</p>
+          I am a motivated professional driven by my career, passion, and results, eager to secure a full-time developer position that presents professional challenges. I aim to utilize my skills effectively to achieve impactful results, furthering my career while contributing positively to a client organization, all while upholding strong work ethics and utilizing existing resources.</p>
           <Link className='font-bolder' href='https://drive.google.com/file/d/1EAqA0QIZQymMCVPkoEpUzACbUVadX7-x/view?usp=drive_link'><button className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-tr from-amber2 via-amber1 to-amber2 hover:scale-110 '>View CV</button> </Link>
         </div>
 
@@ -85,11 +84,11 @@ export default function Home() {
 
 
       {/* Skills */}
-      <section id="Skills" className='pt-20'>
-        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue text-transparent bg-clip-text text-3xl font-bold pt-6   pb-3  text-center'  >Skills</h3>
+      <section id="Skills" className='pt-20'   >
+        <div data-aos="fade-in"><h3 className='  bg-gradient-to-r from-amber1 via-lightBlue text-transparent bg-clip-text text-3xl font-bold pt-6   pb-3  text-center'  >Skills</h3>
 
         <h3 className=' font-bold   text-3xl l text-center  text-ash2 py-2' id="services">Accomplished Skills to Date </h3>
-
+        </div>
         <Skills />
 
       </section>
@@ -99,8 +98,8 @@ export default function Home() {
 
 
       {/* Services*/}
-      <section id="Services" className='pt-20'>
-        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'  >Services</h3>
+      <section id="Services" className='pt-20'  data-aos="fade-in">
+        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'   >Services</h3>
 
         <h3 className='  text-3xl font-bold  max-2xl text-center  text-ash2  py-2' id="services">What I Do for My Clients </h3>
 
@@ -111,7 +110,7 @@ export default function Home() {
 
 
 
-      <section id="Experience" className='pt-20'>
+      <section id="Experience" className='pt-20' data-aos="fade-in">
         <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'  >Resume</h3>
 
         <h3 className='  text-3xl font-bold  max-2xl text-center  text-ash2  py-2' id="services">Demonstrated Experience and Accomplishments</h3>
@@ -133,6 +132,8 @@ export default function Home() {
       </section>
 
 <ScrollTop/>
+
+
 
 
 

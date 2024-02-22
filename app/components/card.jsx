@@ -12,24 +12,31 @@ import Link from "next/link";
 const Card = ({ item }) => {
 
   useEffect(()=>{
-    AOS.init({duration: 1000});      
+    AOS.init({duration: 2000});      
     
     }, []);
 
   
   return (
 
-    <div className="bg-dark  grid grid-cols-1 md:grid-cols-3 items-center py-5">
+    
 
-      {/* <ResponsiveMasonry
-    columnsCountBreakPoint={{350:1, 750:2, 900:4}} 
-    gutter='2px' >
-  
-   <Masonry> */}
+
+
+    <div className="bg-dark  grid grid-cols-1 md:grid-cols-3 items-center py-5"
+    
+   
+    >
+
+     
 
       {item.map(Val => {
         return (
-          <div className="flex justify-center"
+      
+          <div className="flex justify-center hover:scale-105 transition-all "
+ 
+
+
             key={Val.id}
           >
             <div className=" bg-gradient-to-tl from-darkestBlue  via-greyBlack  to-darkestBlue mx-1  my-1 justify-center shadow-2xl   flex flex-col px-3 py-6 rounded-2xl  hover:scale-105 "   data-aos="fade-in">
@@ -46,12 +53,14 @@ const Card = ({ item }) => {
             </div>
 
           </div>
+        
         );
       })}
 
 
-
-    </div>
+</div>
+ 
+ 
   );
 };
 

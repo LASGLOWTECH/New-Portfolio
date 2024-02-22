@@ -1,17 +1,23 @@
 
 
-
+'use-client'
 import Link from 'next/link';
 import Image from 'next/image'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import Skilled from "./skilled";
-
+import {useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Skills = () => {
-
+ 
+    useEffect(()=>{
+        AOS.init({duration: 2000});      
+        
+        }, []);
     return (
         <div className=" mt-10 grid gap-5  justify-center items-center grid-cols-1  md:grid-cols-2">
 
-            <div className=''>   <h3 className=' bg-clip-text text-transparent bg-gradient-to-r from-lightBlue to-amber1 font-bold  text-2xl  text-left  text-lightBlue py-2' >An Enthusiastic Developer Driven by creativity  </h3>
+            <div  data-aos="slide-up">   <h3 className=' bg-clip-text text-transparent bg-gradient-to-r from-lightBlue to-amber1 font-bold  text-2xl  text-left  text-lightBlue py-2' >An Enthusiastic Developer Driven by creativity  </h3>
 
 
                 <p className='text-ash2 text-base pt-3 font-light'>
@@ -23,7 +29,7 @@ const Skills = () => {
 
             </div>
 
-            <div className='shadow-5xl rounded-3xl'>
+            <div className='shadow-5xl rounded-3xl' data-aos="fade-in">
 
 
                 <ResponsiveMasonry

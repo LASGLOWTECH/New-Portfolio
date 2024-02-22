@@ -35,7 +35,7 @@ const ScrollTop = () => {
       <div>
          {show && (
             <div className="arrow-up  ">
-               <BsFillArrowUpSquareFill onClick={ScrolltoTop} className="  text-4xl font-bold fill-amber2" />
+               <BsFillArrowUpSquareFill onClick={ScrolltoTop} className=" animate-pulse hover:scale-110 text-4xl font-bold fill-amber2" />
             </div>
 
          )}
