@@ -56,12 +56,13 @@ export default function Home() {
 
         <div className='pt-2 md:pt-0 text-center md:text-start '>
 
-          <h3 className='  text-3xl font-medium text-white'  data-aos="slide-down">Hi,  I&apos;m <br></br>
-            <span className='text-4xl text-ash2 font-bold pt-3'>Omozemoje Augustine Oisasoje,</span> </h3>
+          <h1 className='  text-4xl md:text-5xl font-medium text-ash2 pb-3'  data-aos="slide-down">Hi,  I&apos;m <br></br>
+             </h1>
+             <h1 className=' text-4xl md:text-5xl text-ash2 font-bold py-2 '>Omozemoje Augustine Oisasoje</h1>
           <h5 className="  text-3xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-lightBlue to-amber1 pt-2"> Your Creative
 
 
-            <span className='font-bold'>
+            <span className='font-bold text-lightBlue'>
               <Typewriter
                 words={[' Web developer', ' Web Designer', '  Graphic designer']}
                 loop={Infinity}
