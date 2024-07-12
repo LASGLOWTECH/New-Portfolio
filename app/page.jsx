@@ -2,7 +2,7 @@
 "use client"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import {useEffect } from 'react'
+import { useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Typewriter } from 'react-simple-typewriter'
@@ -18,17 +18,17 @@ import { motion, AnimatePresence } from "framer-motion"
 export default function Home() {
 
 
-  useEffect(()=>{
-    AOS.init({duration: 1000});      
-    
-    }, []);
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+
+  }, []);
 
 
 
 
   const handleType = (count) => {
 
-    
+
     // access word count number
     console.log(count)
   }
@@ -56,9 +56,9 @@ export default function Home() {
 
         <div className='pt-2 md:pt-0 text-center md:text-start '>
 
-          <h1 className='  text-4xl md:text-5xl font-medium text-ash2 pb-3'  data-aos="slide-down">Hi,  I&apos;m <br></br>
-             </h1>
-             <h1 className=' text-4xl md:text-5xl text-ash2 font-bold py-2 '>Omozemoje Augustine Oisasoje</h1>
+          <h1 className='  text-4xl md:text-5xl font-medium text-ash2 pb-3' data-aos="slide-down">Hi,  I&apos;m <br></br>
+          </h1>
+          <h1 className=' text-4xl md:text-5xl text-ash2 font-bold py-2 '>Omozemoje Augustine Oisasoje</h1>
           <h5 className="  text-3xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-lightBlue to-amber1 pt-2"> Your Creative
 
 
@@ -77,7 +77,7 @@ export default function Home() {
             </span></h5>
 
           <p className='text-ash2 text-lg pt-6 font-light'>
-          I am a motivated professional driven by my career, passion, and results, eager to secure a full-time developer position that presents professional challenges. I aim to utilize my skills effectively to achieve impactful results, furthering my career while contributing positively to a client organization, all while upholding strong work ethics and utilizing existing resources.</p>
+            I am a motivated professional driven by my career, passion, and results, eager to secure a full-time developer position that presents professional challenges. I aim to utilize my skills effectively to achieve impactful results, furthering my career while contributing positively to a client organization, all while upholding strong work ethics and utilizing existing resources.</p>
           <Link className='font-bolder' href='https://drive.google.com/file/d/1EAqA0QIZQymMCVPkoEpUzACbUVadX7-x/view?usp=drive_link'><button className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-tr from-amber2 via-amber1 to-amber2 hover:scale-110 '>View CV</button> </Link>
         </div>
 
@@ -88,7 +88,7 @@ export default function Home() {
       <section id="Skills" className='pt-20'   >
         <div data-aos="fade-in"><h3 className='  bg-gradient-to-r from-amber1 via-lightBlue text-transparent bg-clip-text text-3xl font-bold pt-6   pb-3  text-center'  >Skills</h3>
 
-        <h3 className=' font-bold   text-3xl l text-center  text-ash2 py-2' id="services">Accomplished Skills to Date </h3>
+          <h3 className=' font-bold   text-3xl l text-center  text-ash2 py-2' id="services">Accomplished Skills to Date </h3>
         </div>
         <Skills />
 
@@ -99,7 +99,7 @@ export default function Home() {
 
 
       {/* Services*/}
-      <section id="Services" className='pt-20'  data-aos="fade-in">
+      <section id="Services" className='pt-20' data-aos="fade-in">
         <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'   >Services</h3>
 
         <h3 className='  text-3xl font-bold  max-2xl text-center  text-ash2  py-2' id="services">What I Do for My Clients </h3>
@@ -132,7 +132,7 @@ export default function Home() {
 
       </section>
 
-<ScrollTop/>
+      <ScrollTop />
 
 
 

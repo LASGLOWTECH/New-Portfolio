@@ -84,7 +84,7 @@ info:" This porfolio itself, aims to show my experience and journey so far in th
   { id: "8",
     category: "Graphics",
     button:'  View Designs',
-    link:"https://drive.google.com/drive/folders/1KUagh-fTHgAseLTDykbvph9vm_xm_KZV?usp=drive_link",
+    link:"https://drive.google.com/drive/folders/1KUagh-fTHgAseLTDykbvph9vm_xm_KZV?usp=sharing",
     img: "/graphic.jpg",
     title:"UR9 GROUP",
     info:"Have the opportunity to create Some designs ranging from, logos, flyers, brochurs, banners  for the company  "
