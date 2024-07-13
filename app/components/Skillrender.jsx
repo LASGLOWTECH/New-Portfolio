@@ -17,7 +17,7 @@ const Skills = () => {
     return (
         <div className=" mt-10 grid gap-5  justify-center items-center grid-cols-1  md:grid-cols-2">
 
-            <div  data-aos="slide-up">   <h3 className=' bg-clip-text text-transparent bg-gradient-to-r from-lightBlue to-amber1 font-bold  text-2xl  text-left  text-lightBlue py-2' >An Enthusiastic Developer Driven by creativity  </h3>
+            <div >   <h3 className=' bg-clip-text text-transparent bg-gradient-to-r from-lightBlue to-amber1 font-bold  text-2xl  text-left  text-lightBlue py-2' >An Enthusiastic Developer Driven by creativity  </h3>
 
 
                 <p className='text-ash2 text-base pt-3 font-light'>
