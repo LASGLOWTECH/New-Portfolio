@@ -38,7 +38,7 @@ const Data = [
 { id: "4",
 category: "Frontend",
 button:'View project',
-link:"  https://jvec-assessment-wordpress-pearl.vercel.app/",
+link:"  https://jvec-solution.vercel.app/",
 
 img: "/JVEC.jpeg",
 title:"JVEC SOLUTION CLONE",

@@ -11,7 +11,7 @@ import { BsTelephone, } from "react-icons/bs";
 import { MdLocationOn } from "react-icons/md";
 
 import { BsTwitter, BsLinkedin } from "react-icons/bs";
-import { FaFacebookF, FaInstagram, } from "react-icons/fa"
+import { FaFacebookF, FaInstagram, FaDribbble, FaPinterest } from "react-icons/fa"
 
 export default function Footer () {
 
@@ -141,6 +141,8 @@ export default function Footer () {
           <span className=" rounded-[100%]   my-5 me-2 text-darkBlue bg-orangeRed  text-3xl"><a href="https://twitter.com/OmozemojeAugus1" target="_blank"><BsTwitter className="p-1" /></a></span>
           <span className="rounded-[100%] my-5  mx-2  text-darkBlue  text-3xl"><a href="https://m.facebook.com/omozemoje.augustineoisasoje" target="_blank"><FaFacebookF className="p-1" /></a></span>
           <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-3xl"><a href="https://instagram.com/austineosaz/"><FaInstagram className="p-1" /></a></span>
+          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-3xl"><a href="https://dribbble.com/Austinosaz"><FaDribbble className="p-1" /></a></span>
+          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-3xl"><a href="www.pinterest.com/lasglowtech"><FaPinterest className="p-1" /></a></span>
 
         </div>
 
