@@ -18,7 +18,7 @@ const Profile = [
     
     position: "Graphic Designer",
     company: "PE Lifts Ghana LTD",
-    year:"(2023-date)",
+    year:"(2023-24)",
     
     icon: { iconTitle:  FaBriefcase},
 
