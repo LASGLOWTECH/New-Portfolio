@@ -48,8 +48,8 @@ export default function Home() {
       <section className='grid items-center  mt-20 grid-cols-1  md:grid-cols-2'>
 
         <Image src='/PROF2.png'
-          className='px-2  p-2 rounded-b-full'
-          width={500}
+          className='px-2 mx-auto border-amber-400 border-b-4 p-2 rounded-b-full '
+          width={400}
           height={400}
           alt='hero-picture' />
 
