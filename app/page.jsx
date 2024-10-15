@@ -99,7 +99,7 @@ export default function Home() {
 
 
       {/* Services*/}
-      <section id="Services" className='pt-20' data-aos="fade-in">
+      <section id="Services" className='pt-20' >
         <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'   >Services</h3>
 
         <h3 className='  text-3xl font-bold  max-2xl text-center  text-ash2  py-2' id="services">What I Do for My Clients </h3>

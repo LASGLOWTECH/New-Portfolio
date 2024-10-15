@@ -8,7 +8,7 @@ const Data = [
     title:"50REIN",
     info:"50 REIN is an ideation with it’s core values and mandate encompass in amplifying the real estate industry in Nigeria. ",
 
-  link:"https://www.50rein.com/",
+  link:"https://five0rein.onrender.com/",
   
   },
   { id: "2",
@@ -62,7 +62,7 @@ info:"A one page website used for presentation, to promote a brand identity "
 id: "6",
 category: "Frontend",
 button:'  View project',
-link:" https://filtech-project.vercel.app/",
+link:" https://austinosaz.vercel.app/",
 
 img: "/portfolio.jpg",
 title:" Portfolio",
@@ -84,7 +84,7 @@ info:" This porfolio itself, aims to show my experience and journey so far in th
   { id: "8",
     category: "Graphics",
     button:'  View Designs',
-    link:"https://drive.google.com/drive/folders/1KUagh-fTHgAseLTDykbvph9vm_xm_KZV?usp=sharing",
+    link:"https://dribbble.com/Austinosaz",
     img: "/graphic.jpg",
     title:"UR9 GROUP",
     info:"Have the opportunity to create Some designs ranging from, logos, flyers, brochurs, banners  for the company  "
@@ -94,7 +94,7 @@ info:" This porfolio itself, aims to show my experience and journey so far in th
   { id: "9",
     category: "Graphics",
     button:'View Designs',
-    link:"  https://drive.google.com/drive/folders/1sTHDGK-sTWTH6xieFtDfidhPfHoX8OEf?usp=drive_link",
+    link:"  https://pin.it/4RfiMK1wZ",
     img: "/pelifts.jpg",
     title:"PE LIFTS",
     info:"PELifts is a manufacturer of the most advance and cost-effective home lifts technology available today. Ghana "

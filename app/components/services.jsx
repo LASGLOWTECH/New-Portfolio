@@ -1,15 +1,12 @@
 'use-client'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 import Profile from "./tools";
 
 const Services = () => {
    
-//   useEffect(()=>{
-//     AOS.init({duration: 5000});      
-    
-//     }, []);
+
     return (
         <div className=" mt-6 grid  justify-center  shadow-xl  grid-cols-1 gap-3   md:grid-cols-3">
 
@@ -24,6 +21,7 @@ const Services = () => {
                             <p className='text-ash2 text-base  text-center font-light'>{profile.info}</p>
                       
                        
+
 
 
 
