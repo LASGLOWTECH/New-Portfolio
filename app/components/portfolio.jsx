@@ -94,7 +94,7 @@ info:" This porfolio itself, aims to show my experience and journey so far in th
   { id: "9",
     category: "Graphics",
     button:'View Designs',
-    link:"  https://pin.it/4RfiMK1wZ",
+    link:" https://www.pinterest.com/lasglowtech/pins/",
     img: "/pelifts.jpg",
     title:"PE LIFTS",
     info:"PELifts is a manufacturer of the most advance and cost-effective home lifts technology available today. Ghana "
