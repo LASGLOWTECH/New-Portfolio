@@ -78,7 +78,7 @@ export default function Home() {
 
           <p className='text-ash2 text-lg pt-6 font-light'>
             I am a motivated professional driven by my career, passion, and results, eager to secure a full-time developer position that presents professional challenges. I aim to utilize my skills effectively to achieve impactful results, furthering my career while contributing positively to a client organization, all while upholding strong work ethics and utilizing existing resources.</p>
-          <Link className='font-bolder' href='https://drive.google.com/file/d/1EAqA0QIZQymMCVPkoEpUzACbUVadX7-x/view?usp=drive_link'><button className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-tr from-amber2 via-amber1 to-amber2 hover:scale-110 '>View CV</button> </Link>
+          <Link className='font-bolder' href='https://drive.google.com/file/d/1SZ78cOYrR9YDeJ2T5MKO5co1lKNB_lgL/view?usp=sharing'><button className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-tr from-amber2 via-amber1 to-amber2 hover:scale-110 '>View CV</button> </Link>
         </div>
 
       </section>
