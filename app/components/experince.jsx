@@ -2,12 +2,26 @@
 import { FaBriefcase } from "react-icons/fa";
 
 const Profile = [
+
+  {
+      
+      
+    position: "Creative Designer",
+    company: "Fhemfel Group",
+    year:"(2024-date)",
+    
+    icon: { iconTitle:  FaBriefcase},
+
+    info: " Created a multi-page website for the company. Web design, development and maintainance.Worked with 7 creatives as a team Collaborated with UI/UX, graphic designers to improve web performance. Company logo design and branding"
+  },
+
+
     {
       
       
       position: "Web Developer",
       company: "UR9 Group",
-      year:"(2023-date)",
+      year:"(2023-2024)",
       
       icon: { iconTitle:  FaBriefcase},
   
@@ -36,6 +50,7 @@ const Profile = [
 
   info: " Created a multi-page website for the company. Web design, development and maintainance.Worked with 7 creatives as a team Collaborated with UI/UX, graphic designers to improve web performance. Company logo design and branding"
 },
+
 
 ]
 
