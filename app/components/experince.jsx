@@ -12,7 +12,7 @@ const Profile = [
     
     icon: { iconTitle:  FaBriefcase},
 
-    info: " Created a multi-page website for the company. Web design, development and maintainance.Worked with 7 creatives as a team Collaborated with UI/UX, graphic designers to improve web performance. Company logo design and branding"
+    info: "•	Design visually appealing graphics, logos, icons, and infographics for digital platforms, print materials, advertising, events, Newsletters and exhibitions."
   },
 
 
