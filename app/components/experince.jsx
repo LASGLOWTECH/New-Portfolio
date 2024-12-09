@@ -12,7 +12,7 @@ const Profile = [
     
     icon: { iconTitle:  FaBriefcase},
 
-    info: "•	Design visually appealing graphics, logos, icons, and infographics for digital platforms, print materials, advertising, events, Newsletters and exhibitions."
+    info: "Design visually appealing graphics, logos, icons, and infographics for digital platforms, print materials, advertising, events, Newsletters and exhibitions."
   },
 
 
