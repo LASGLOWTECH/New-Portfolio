@@ -64,7 +64,7 @@ const Education = [
     degree: "BSC. in Quantity Surveying",
     institution: " University of Benin, Benin City",
     year: "(2015-2021)",
-    grade:"second clas upper",
+    grade:"Second class upper",
     icon: { iconTitle:  FaBriefcase},
   },
   {
