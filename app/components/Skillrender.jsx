@@ -17,14 +17,14 @@ const Skills = () => {
     return (
         <div className=" mt-10 grid gap-5  justify-center items-center grid-cols-1  md:grid-cols-2">
 
-            <div >   <h3 className=' bg-clip-text text-transparent md:w-[70%] bg-gradient-to-r from-lightBlue to-amber1 font-semibold text-2xl text-center max-[w-30px]: md:text-left  text-lightBlue py-2' >An Enthusiastic Developer Driven by creativity  </h3>
+            <div >   <h3 className=' bg-clip-text text-transparent md:w-[70%] bg-gradient-to-r from-lightBlue to-amber1 font-semibold text-2xl text-center max-[w-30px]: md:text-left  text-lightBlue py-2' >An Enthusiastic Developer Driven by Creativity  </h3>
 
 
                 <p className='text-ash2 text-base pt-3 font-light'>
-                    Over the past 4 years, I&apos;ve dedicated myself to mastering a range of skills essential
+                    Over the past years, I&apos;ve dedicated myself to mastering a range of skills essential
                     for successful web development. From graphic design to SEO, my expertise has been honed through building  projects and continuous learning. With each accomplishment, I&apos;ve grown more adept at crafting compelling digital experiences that resonate with audiences and drive tangible results. These accomplished skills form the foundation of my professional journey,
                     propelling me forward as I strive for excellence in every endeavor.</p>
-                <Link className='font-bolder' href='https://lasglowtech.com.ng'><button className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-r from-amber1 via-amber1 to-amber2 hover:scale-110 '>Visit Website</button> </Link>
+                <Link className='font-bolder' href='https://drive.google.com/file/d/1SZ78cOYrR9YDeJ2T5MKO5co1lKNB_lgL/view?usp=sharing'><button className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-r from-amber1 via-amber1 to-amber2 hover:scale-110 '>View CV</button> </Link>
 
 
             </div>
