@@ -130,20 +130,20 @@ export default function Footer () {
       <div className='flex items-start  my-10 md:flex-row md:space-x-36 md:justify-center md:items-center flex-col '>
 
         <div className="flex flex-col md:justify-between row  justify-start  md:flex-row">
-          <p className=" text-center md:text-left font-lighter text-[14px] text-black py-2">  &copy; Copyright <span className="  text-black">{newDay} </span> Lasglowtech</p>
+          <p className=" text-center md:text-left font-lighter text-base text-black py-2">  &copy; Copyright <span className="  text-black">{newDay} </span> Lasglowtech</p>
 
         </div>
 
 
         <div className='Email  flex  justify-start'>
-          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-2xl"><a href="https://linkedin.com/in/austinosaz"><BsLinkedin className="p-1" /></a></span>
+          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-3xl"><a href="https://linkedin.com/in/austinosaz"><BsLinkedin className="p-1" /></a></span>
 
-          <span className=" rounded-[100%]   my-5 me-2 text-darkBlue bg-orangeRed  text-2xl"><a href="https://twitter.com/OmozemojeAugus1" target="_blank"><BsTwitter className="p-1" /></a></span>
+          <span className=" rounded-[100%]   my-5 me-2 text-darkBlue bg-orangeRed  text-3xl"><a href="https://twitter.com/OmozemojeAugus1" target="_blank"><BsTwitter className="p-1" /></a></span>
           <span className="rounded-[100%] my-5  mx-2  text-darkBlue  text-3xl"><a href="https://m.facebook.com/omozemoje.augustineoisasoje" target="_blank"><FaFacebookF className="p-1" /></a></span>
-          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-2xl"><a href="https://www.instagram.com/lasglowtech/profilecard/?igsh=NW56bHBydHAzeTdr"><FaInstagram className="p-1" /></a></span>
-          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-2xl"><a href="https://dribbble.com/Austinosaz"><FaDribbble className="p-1" /></a></span>
-          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-2xl"><a href="https://pin.it/6TdQiKnZP"><FaPinterest className="p-1" /></a></span>
-          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-2xl"><a href="https://discord.com/channels/@lasglowtech"><FaDiscord  className="p-1" /></a></span>
+          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-3xl"><a href="https://www.instagram.com/lasglowtech/profilecard/?igsh=NW56bHBydHAzeTdr"><FaInstagram className="p-1" /></a></span>
+          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-3xl"><a href="https://dribbble.com/Austinosaz"><FaDribbble className="p-1" /></a></span>
+          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-3xl"><a href="https://pin.it/6TdQiKnZP"><FaPinterest className="p-1" /></a></span>
+          <span className=" rounded-[100%] my-5 mx-2 text-darkBlue  bg-orangeRed text-3xl"><a href="https://discord.com/channels/@lasglowtech"><FaDiscord  className="p-1" /></a></span>
  
         </div>
 
