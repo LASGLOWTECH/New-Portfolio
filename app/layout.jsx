@@ -1,10 +1,13 @@
 import './globals.css'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
 
-const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '700'], // Specify the weights you need
+});
 
 export const metadata = {
   title: 'my folio-app',
@@ -14,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}
+      <body className={poppins.className}
       
       >
         

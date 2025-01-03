@@ -25,7 +25,7 @@ const Profile = [
       
       icon: { iconTitle:  FaBriefcase},
   
-      info: " Created a multi-page website for the company. Web design, development and maintainance.Worked with 7 creatives as a team Collaborated with UI/UX, graphic designers to improve web performance. Company logo design and branding"
+      info: " Created a multi-page website for the company. Web design, development and maintainance.Worked with 7 creatives as a team Collaborated with UI/UX, graphic designers to improve web performance. Company logo design and branding, during this time i also provode IT support for entire staffs and management"
     },
 
    {
@@ -48,11 +48,31 @@ const Profile = [
   
   icon: { iconTitle:  FaBriefcase},
 
-  info: " Created a multi-page website for the company. Web design, development and maintainance.Worked with 7 creatives as a team Collaborated with UI/UX, graphic designers to improve web performance. Company logo design and branding"
+  info: "Web design, graphics design, , online registration, interne services, software intallation  and tutor  "
+                           
+                         
 },
 
 
 ]
 
 
-    export default Profile;
+
+
+const Education = [
+  {
+    degree: "BSC. in Quantity Surveying",
+    institution: " University of Benin, Benin City",
+    year: "(2015-2021)",
+    grade:"second clas upper",
+    icon: { iconTitle:  FaBriefcase},
+  },
+  {
+    degree: "SSCE",
+    institution: "Azama College Otuo",
+    year: "(2007-2013)",
+    icon: { iconTitle:  FaBriefcase},
+  },
+]
+
+export  { Profile, Education };

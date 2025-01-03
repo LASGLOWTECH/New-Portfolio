@@ -11,13 +11,13 @@ import 'aos/dist/aos.css';
 const Skills = () => {
  
     useEffect(()=>{
-        AOS.init({duration: 1000});      
+        AOS.init({duration: 5000});      
         
         }, []);
     return (
         <div className=" mt-10 grid gap-5  justify-center items-center grid-cols-1  md:grid-cols-2">
 
-            <div >   <h3 className=' bg-clip-text text-transparent bg-gradient-to-r from-lightBlue to-amber1 font-bold  text-2xl text-center max-[w-30px]: md:text-left  text-lightBlue py-2' >An Enthusiastic Developer Driven by creativity  </h3>
+            <div >   <h3 className=' bg-clip-text text-transparent md:w-[70%] bg-gradient-to-r from-lightBlue to-amber1 font-semibold text-2xl text-center max-[w-30px]: md:text-left  text-lightBlue py-2' >An Enthusiastic Developer Driven by creativity  </h3>
 
 
                 <p className='text-ash2 text-base pt-3 font-light'>

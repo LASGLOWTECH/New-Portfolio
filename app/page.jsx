@@ -19,7 +19,7 @@ export default function Home() {
 
 
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 500 });
 
   }, []);
 
@@ -48,7 +48,7 @@ export default function Home() {
       <section className='grid items-center  mt-20 grid-cols-1  md:grid-cols-2'>
 
         <Image src='/PROF2.png'
-          className='px-2 mx-auto border-amber-400 border-b-4 p-2 rounded-b-full '
+          className='px-2 mx-auto  p-2 rounded-b-full '
           width={400}
           height={400}
           alt='hero-picture' />
@@ -86,9 +86,9 @@ export default function Home() {
 
       {/* Skills */}
       <section id="Skills" className='pt-20'   >
-        <div data-aos="fade-in"><h3 className='  bg-gradient-to-r from-amber1 via-lightBlue text-transparent bg-clip-text text-3xl font-bold pt-6   pb-3  text-center'  >Skills</h3>
+        <div data-aos="fade-in"><h3 className='  bg-gradient-to-r from-amber1 via-lightBlue text-transparent bg-clip-text text-3xl font-semibold pt-6   pb-3  text-center'  >Skills</h3>
 
-          <h3 className=' font-bold   text-3xl l text-center  text-ash2 py-2' id="services">Accomplished Skills to Date </h3>
+          <h3 className=' font-semibold   text-3xl l text-center  text-ash2 py-2' id="services">Accomplished Skills to Date </h3>
         </div>
         <Skills />
 
@@ -100,7 +100,7 @@ export default function Home() {
 
       {/* Services*/}
       <section id="Services" className='pt-20' >
-        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'   >Services</h3>
+        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-semibold pt-6   text-center'   >Services</h3>
 
         <h3 className='  text-3xl font-bold  max-2xl text-center  text-ash2  py-2' id="services">What I Do for My Clients </h3>
 
@@ -111,12 +111,15 @@ export default function Home() {
 
 
 
-      <section id="Experience" className='pt-20' data-aos="fade-in">
-        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-bold pt-6   text-center'  >Resume</h3>
+      <section id="Experience" className='pt-20   max-w-full' >
+        <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-semibold pt-6   text-center'  >Resume</h3>
 
-        <h3 className='  text-3xl font-bold  max-2xl text-center  text-ash2  py-2' id="services">Demonstrated Experience and Accomplishments</h3>
-        <Aboutus />
+        <h3 className='max-w-lg text-3xl font-bold  max-2xl text-center mx-auto  text-ash2  py-2' id="services">Demonstrated Experience and  Accomplishments</h3>
+       <div className='' data-aos="zoom-in"><Aboutus /></div> 
       </section>
+
+
+
 
 
       <Projects />
