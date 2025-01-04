@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'my folio-app',
-  description: 'my portfolio website ',
+  title: 'Austinosaz',
+  description: 'My Portfolio Website ',
 }
 
 export default function RootLayout({ children }) {

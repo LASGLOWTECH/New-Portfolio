@@ -25,7 +25,7 @@ const Profile = [
       
       icon: { iconTitle:  FaBriefcase},
   
-      info: " Created a multi-page website for the company. Web design, development and maintainance.Worked with 7 creatives as a team Collaborated with UI/UX, graphic designers to improve web performance. Company logo design and branding, during this time i also provode IT support for entire staffs and management"
+      info: " Created a multi-page website for the company. Web design, development and maintainance.Worked with 7 creatives as a team Collaborated with UI/UX, graphic designers to improve web performance. Company logo design and branding, during this period i also provoded IT support for entire staff and management"
     },
 
    {
@@ -36,7 +36,7 @@ const Profile = [
     
     icon: { iconTitle:  FaBriefcase},
 
-    info: "Company brand designer. Created logos and brand identity, Collaborated with other teams"
+    info: "Company's brand designer. Created  visually appealing digital representation of the company's brand identity, logos and both printed and online materials , collaborated with creative the creative team to promote effective delivery and performance."
   },
 
 {
@@ -48,7 +48,7 @@ const Profile = [
   
   icon: { iconTitle:  FaBriefcase},
 
-  info: "Web design, graphics design, , online registration, interne services, software intallation  and tutor  "
+  info: "Web design, Graphic design, online registration, internet services, software intallation  and tutoring "
                            
                          
 },
