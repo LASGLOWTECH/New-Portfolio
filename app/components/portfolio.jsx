@@ -42,7 +42,7 @@ link:"  https://jvec-solution.vercel.app/",
 
 img: "/JVEC.jpeg",
 title:"JVEC SOLUTION CLONE",
-info:"Cloned this website for an assessment, as be proficient in frontend technologies "
+info:"Cloned this website for an assessment, as being proficient in frontend technologies "
 
 },
 
@@ -87,7 +87,7 @@ info:" This porfolio itself, aims to show my experience and journey so far in th
     link:"https://dribbble.com/Austinosaz",
     img: "/graphic.jpg",
     title:"UR9 GROUP",
-    info:"Have the opportunity to create Some designs ranging from, logos, flyers, brochurs, banners  for the company  "
+    info:"Have the opportunity to create some designs ranging from, logos, flyers, brochures, banners  for the company  "
   
   },
 
@@ -97,7 +97,7 @@ info:" This porfolio itself, aims to show my experience and journey so far in th
     link:" https://www.pinterest.com/lasglowtech/pins/",
     img: "/pelifts.jpg",
     title:"PE LIFTS",
-    info:"PELifts is a manufacturer of the most advance and cost-effective home lifts technology available today. Ghana "
+    info:"PELifts is a manufacturer of the most advanced and cost-effective home lifts technology available today. Ghana "
   
   },
   
