@@ -93,6 +93,16 @@ info:" This porfolio itself, aims to show my experience and journey so far in th
 
   { id: "9",
     category: "Graphics",
+    button:'  View Designs',
+    link:"https://dribbble.com/Austinosaz",
+    img: "/fhemfelhomes.jpg",
+    title:"Fhemfel Homes",
+    info:"Creative designer for Fhemfel Homes, a real estate company in Nigeria. I created visually appealing graphics, logos, icons, and infographics for digital platforms, print materials, advertising, events, Newsletters and exhibitions."
+
+  },
+
+  { id: "10",
+    category: "Graphics",
     button:'View Designs',
     link:" https://www.pinterest.com/lasglowtech/pins/",
     img: "/pelifts.jpg",
@@ -101,7 +111,7 @@ info:" This porfolio itself, aims to show my experience and journey so far in th
   
   },
   
-  { id: "10",
+  { id: "11",
     category: "Backend",
     button:'  View project',
     link:"https://phoenixstech.com",
@@ -111,11 +121,11 @@ info:" This porfolio itself, aims to show my experience and journey so far in th
   
   },
 
-  { id: "11",
+  { id: "12",
     category: "Backend",
     button:'  View project',
     link:"https://renaissanceweb3afrik.com/",
-    img: "/RWA.jpeg",
+    img: "/RWA.jpg",
     title:"Renaissance Web3 African",
     info:"Renaissance Web3 African aims to empower Africans through Web3 education, jobs, and opportunities to thrive in the decentralized economy"
   
