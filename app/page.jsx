@@ -17,16 +17,16 @@ import Contact from './components/contact'
 
 export default function Home() {
 
-  
-    const handleDownload = () => {
-      window.location.href =
-        "https://drive.google.com/uc?export=download&id=1SZ78cOYrR9YDeJ2T5MKO5co1lKNB_lgL";
-    };
 
-  useEffect(() => {
-    AOS.init({ duration: 500 });
+  const handleDownload = () => {
+    window.location.href =
+      "https://drive.google.com/uc?export=download&id=1SZ78cOYrR9YDeJ2T5MKO5co1lKNB_lgL";
+  };
 
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({ duration: 2000 });
+
+  // }, []);
 
 
 
@@ -83,7 +83,7 @@ export default function Home() {
 
           <p className='text-ash2 text-lg pt-6 font-light'>
             I am a motivated professional driven by my career, passion, and results, eager to secure a full-time developer position that presents professional challenges. I aim to utilize my skills effectively to achieve impactful results, furthering my career while contributing positively to a client organization, all while upholding strong work ethics and utilizing existing resources.</p>
-       <button  onClick={handleDownload} className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-tr from-amber2 via-amber1 to-amber2 hover:scale-110 '>Download CV</button> 
+          <button onClick={handleDownload} className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-tr from-amber2 via-amber1 to-amber2 hover:scale-110 '>Download CV</button>
         </div>
 
       </section>
@@ -120,7 +120,7 @@ export default function Home() {
         <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-semibold pt-6   text-center'  >Resume</h3>
 
         <h3 className='max-w-lg text-3xl font-bold  max-2xl text-center mx-auto  text-ash2  py-2' id="services">Demonstrated Experience and  Accomplishments</h3>
-       <div className='' data-aos="zoom-in"><Aboutus /></div> 
+        <div className='' data-aos="zoom-t"><Aboutus /></div>
       </section>
 
 

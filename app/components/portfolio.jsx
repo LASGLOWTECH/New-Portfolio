@@ -101,8 +101,25 @@ info:" This porfolio itself, aims to show my experience and journey so far in th
   
   },
   
+  { id: "10",
+    category: "Backend",
+    button:'  View project',
+    link:"https://phoenixstech.com",
+    img: "/Homehero.png",
+    title:"Phoenixs Tech",
+    info:"Phoenixs tech provides multilingual customer services support across various industries, including finance, retail, e-commerce, and more"
   
+  },
 
+  { id: "11",
+    category: "Backend",
+    button:'  View project',
+    link:"https://renaissanceweb3afrik.com/",
+    img: "/RWA.jpeg",
+    title:"Renaissance Web3 African",
+    info:"Renaissance Web3 African aims to empower Africans through Web3 education, jobs, and opportunities to thrive in the decentralized economy"
+  
+  },
 
 ];
 

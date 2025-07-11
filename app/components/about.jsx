@@ -2,6 +2,8 @@
 import { FaGraduationCap } from "react-icons/fa6";
 import { FaBriefcase } from "react-icons/fa";
 import { Profile, Education } from "./experince";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // import { BsStack } from "react-icons/bs";
 const Aboutus = () => {
     return (
@@ -26,7 +28,7 @@ const Aboutus = () => {
                                
 
                                 <div className="border mt-4 border-ash2 p-5 rounded-md  shadow-sm"  >
-                                < div className="flex flex-row items-center " key={index}>
+                                < div className="flex flex-row items-center " key={index} >
                                     <  profile.icon.iconTitle  className="bg-amber2  rounded-full text-4xl p-2 fill-darkBlue" />
                                     <div className="bg-amber2 w-10 h-0.5" />
                                     <div className=" py-2 flex px-3 flex-col md:flex-row items-end   md:justify-center">

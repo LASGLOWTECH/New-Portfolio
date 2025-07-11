@@ -16,7 +16,19 @@ const Profile = [
   },
 
 
-    {
+
+   {
+      
+      
+    position: "Creative Designer",
+    company: "Smiggle Ghana",
+    year:"(2024-2024)",
+    
+    icon: { iconTitle:  FaBriefcase},
+
+    info: "Design visually appealing graphics, logos, icons, and infographics for digital platforms, print materials, advertising, events, Newsletters and exhibitions."
+  },
+  {
       
       
       position: "Web Developer",
