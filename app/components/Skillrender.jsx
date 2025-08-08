@@ -17,10 +17,11 @@ const Skills = () => {
     return (
         <div className=" mt-10 grid gap-5  justify-center items-center grid-cols-1  md:grid-cols-2">
 
-            <div >   <h3 className=' bg-clip-text text-transparent md:w-[70%] bg-gradient-to-r from-lightBlue to-amber1 font-semibold text-2xl text-center max-[w-30px]: md:text-left  text-lightBlue py-2' >An Enthusiastic Developer Driven by Creativity  </h3>
+            <div >  
+  <h3 className=' font-semibold text-3xl  md:text-4xl l md:text-left text-ash2 py-2' id="services">Accomplished Skills to Date </h3>
 
 
-                <p className='text-ash2 text-base pt-3 font-light'>
+                <p className='text-ash2 text-base  text-justify pt-3 md:max-w-xl font-light'>
                     Over the past years, I&apos;ve dedicated myself to mastering a range of skills essential
                     for successful web development. From graphic design to SEO, my expertise has been honed through building  projects and continuous learning. With each accomplishment, I&apos;ve grown more adept at crafting compelling digital experiences that resonate with audiences and drive tangible results. These accomplished skills form the foundation of my professional journey,
                     propelling me forward as I strive for excellence in every endeavor.</p>
