@@ -13,19 +13,10 @@ import ScrollTop from './components/scrolltop';
 import Projects from './components/project'
 import Contact from './components/contact'
 import { motion } from "framer-motion";
+import { FaCircle } from 'react-icons/fa';
 // import { motion, AnimatePresence } from "framer-motion"
-const cardVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: (i) => ({
-        opacity: 1,
-        y: 0,
-        transition: {
-            delay: i * 0.3,
-            duration: 0.5,
-            ease: "easeOut",
-        },
-    }),
-};
+
+
 export default function Home() {
   
 
@@ -144,10 +135,20 @@ export default function Home() {
 
 
 
-
+<section className=" px-6 flex items-center justify-center flex-col pt-20 mb-12">
+      <div className="flex mb-4 items-center justify-left flex-row ">
+                         <FaCircle className="fill-amber1  h-3" />
+                    <h3 className="text-2xl px-3 text-ash2 font-medium"> Services</h3>
+                    </div>
+        <h2 className="text-3xl md:text-4xl text-center font-semibold mb-4 text-ash2">
+        What I Do for My Clients
+        </h2>
+          
+      </section>
+      <Services />
 
       {/* Services*/}
-      <section id="Services" className='pt-20' >
+      {/* <section id="Services" className='pt-20' >
         <h3 className='  bg-gradient-to-r from-amber1 via-lightBlue to-amber1 text-transparent bg-clip-text text-2xl font-semibold pt-6   text-center'   >Services</h3>
 
         <h3 className='  text-3xl font-bold  max-2xl text-center  text-ash2  py-2' id="services">What I Do for My Clients </h3>
@@ -156,7 +157,7 @@ export default function Home() {
 
 
       </section>
-
+ */}
 
 
       <section id="Experience" className='pt-20   max-w-full' >
