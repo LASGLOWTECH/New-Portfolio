@@ -16,7 +16,7 @@ const Aboutus = () => {
               <profile.icon.iconTitle className="bg-amber2 rounded-full text-4xl p-2 fill-darkBlue" />
               <div className="bg-amber2 w-10 h-0.5 mx-2" />
               <div className="flex flex-col md:flex-row items-end md:justify-center py-2 md:px-3">
-                <h3 className="text-base font-bold text-ash2">
+                <h3 className="text-base font-medium px-3 text-ash2">
                   {profile.position}
                 </h3>
                 <p className="text-amber2 text-base font-bold px-2">
@@ -50,7 +50,7 @@ const Aboutus = () => {
               <education.icon.iconTitle className="bg-amber2 rounded-full text-4xl p-2 fill-darkBlue" />
               <div className="bg-amber2 w-10 h-0.5 mx-2" />
               <div className="flex flex-col md:flex-row items-end md:justify-center py-2 px-3">
-                <h3 className="text-lg font-bold text-ash2">
+                <h3 className="text-lg font-bold text-right text-ash2">
                   {education.degree}
                 </h3>
                 <p className="text-amber2 text-base font-bold px-2">
