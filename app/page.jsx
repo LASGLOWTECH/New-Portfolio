@@ -92,8 +92,8 @@ export default function Home() {
 
                             <div className="h-[1px] w-full bg-amber1 my-4" />
 
-                            <button className="bg-amber1 text-lg px-4 py-2 rounded-full font-medium hover:bg-Secondarycolor transition-all">
-                              Founder <Link href="https://lasglowtech.com.ng">Lasglowtech</Link> 
+                            <button className="bg-amber1 text-lg px-4 w-fit mx-auto md:mx-0 py-3 rounded-full hover:bg-ash2 font-medium hover:bg-Secondarycolor transition-all">
+                            <Link href="https://lasglowtech.com.ng">  Founder Lasglowtech</Link> 
                             </button>
                         </div>
 
@@ -115,7 +115,7 @@ export default function Home() {
               />
             </span></h5>
 
-          <p className='text-ash2 text-lg pt-6 text-justify  font-light'>
+          <p className='text-ash2 text-lg pt-6 md:text-justify  font-light'>
             I am a motivated professional driven by my career, passion, and results, eager to secure a full-time developer position that presents professional challenges. I aim to utilize my skills effectively to achieve impactful results, furthering my career while contributing positively to a client organization, all while upholding strong work ethics and utilizing existing resources.</p>
           <button onClick={handleDownload} className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-tr from-amber2 via-amber1 to-amber2 hover:bg-white '>Download CV</button>
         </div>
