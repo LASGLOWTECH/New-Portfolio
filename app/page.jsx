@@ -54,7 +54,7 @@ export default function Home() {
     // <div className=' px-6 bg-banner bg-l w-full  bg-contain bg-no-repeat  h-[80vh] md:h-[100vh] '>
 
     <main className="min-h-screen p-6 md:p-20  bg-gradient-to-tr  from-darkestBlue  via-darkestBlue to-greyBlack">
-      <section className='grid items-center justify-center  mt-20 grid-cols-1 px-6 md:px-20 gap-2  mx-auto md:grid-cols-2'>
+      <section className='grid items-center justify-center  mt-20 grid-cols-1  md:px-20 gap-2  mx-auto md:grid-cols-2'>
 {/* 
         <Image src='/PROF2.png'
           className='px-2 mx-auto  p-2 rounded-b-full '
@@ -115,7 +115,7 @@ export default function Home() {
               />
             </span></h5>
 
-          <p className='text-ash2 text-lg pt-6 md:text-justify  font-light'>
+          <p className='text-ash2 text-lg pt-6  font-light'>
             I am a motivated professional driven by my career, passion, and results, eager to secure a full-time developer position that presents professional challenges. I aim to utilize my skills effectively to achieve impactful results, furthering my career while contributing positively to a client organization, all while upholding strong work ethics and utilizing existing resources.</p>
           <button onClick={handleDownload} className=' font-bold text-darkBlue text-lg py-2 px-4 mt-6   shadow-white-4xl rounded-2xl bg-gradient-to-tr from-amber2 via-amber1 to-amber2 hover:bg-white '>Download CV</button>
         </div>
