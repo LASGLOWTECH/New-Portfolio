@@ -15,7 +15,7 @@ const Aboutus = () => {
             <div className="flex items-center">
               <profile.icon.iconTitle className="bg-amber2 rounded-full text-4xl p-2 fill-darkBlue" />
               <div className="bg-amber2 w-10 h-0.5 mx-2" />
-              <div className="flex flex-col md:flex-row items-end md:justify-center py-2 px-3">
+              <div className="flex flex-col md:flex-row items-end md:justify-center py-2 md:px-3">
                 <h3 className="text-base font-bold text-ash2">
                   {profile.position}
                 </h3>
@@ -28,7 +28,7 @@ const Aboutus = () => {
             <p className="text-lightBlue font-semibold text-base py-2">
               {profile.company}
             </p>
-            <p className="text-ash2 text-[14px] py-2 max-w-md">
+            <p className="text-ash2 text-[14px] py-2 md:max-w-md">
               {profile.info}
             </p>
           </div>

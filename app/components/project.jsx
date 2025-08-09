@@ -21,10 +21,10 @@ const Projects  = () => {
                          <FaCircle className="fill-amber1  h-3" />
                     <h3 className="text-2xl px-3 text-ash2 font-medium">Projects</h3>
                     </div>
-        <h2 className="text-3xl md:text-4xl text-center max-w-lg font-semibold mb-4 text-ash2">
+        <h2 className="text-3xl md:text-4xl text-center md:max-w-lg font-semibold mb-4 text-ash2">
     What I have done for My Clients
         </h2>
-        <p className=" container  py-6 px-6 mx-auto max-w-2xl text-ash2 leading-tight text-base text-center">Swipe through my previous projects to see the diverse range of work I have accomplished. Each project reflects my commitment to quality and innovation.</p>
+        <p className=" container  py-6 mx-auto md:max-w-2xl text-ash2 leading-tight text-base text-center">Swipe through my previous projects to see the diverse range of work I have accomplished. Each project reflects my commitment to quality and innovation.</p>
                 
 
         </section>

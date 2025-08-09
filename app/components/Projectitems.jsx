@@ -21,7 +21,7 @@ const Pdata = () => {
   };
 
   return (
-    <div className="w-full bg-dark py-10 px-4">
+    <div className="w-full bg-dark py-10 ">
       {/* Filter Buttons */}
       <Bitems filterItem={filterItem} setItems={setItems} menuItems={menuItems} />
 
