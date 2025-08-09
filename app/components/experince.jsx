@@ -73,7 +73,7 @@ const Profile = [
 
 const Education = [
   {
-    degree: "BSC. in Quantity Surveying",
+    degree: "BSC. Quantity Surveying",
     institution: " University of Benin, Benin City",
     year: "(2015-2021)",
     grade:"Second class upper",
